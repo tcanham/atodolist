@@ -4,14 +4,7 @@ app.controller("toDoList", ["$scope", function($scope) {
 	
 		/*Create array to hold list items*/
 		$scope.listItems = [];
-		    /*Fetch current list from local storage*/
-		var getData = localStorage.getItem("list");
-		/*Parse the retrived string into an array*/
-		var checkData = JSON.parse(getData);
-		/*Check if the array contains any values */
-		if (checkData.length >0) {
-        $scope.Msg = "You have a saved list";
-    };
+		
 		/* Function to add items to listItems array*/
 		$scope.addItem = function () {
 			if($scope.input){
