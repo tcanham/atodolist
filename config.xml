@@ -5,7 +5,7 @@
         versionCode = "10" 
         version     = "1.0.0" >
 
-    <name>A To Do List </name>
+    <name>My To Do List </name>
 
     <description>
        An app to make a to do list
